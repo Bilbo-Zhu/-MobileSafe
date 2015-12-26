@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#22292c">
+
+        <ImageView
+            android:id="@+id/topbarturn_app_operation"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/topbar_lostfind"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/tv_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="应用名"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="管理你的应用程序"
+        android:textColor="#353535"
+        android:textSize="10sp" />
+
+    <RelativeLayout
+        android:id="@+id/re_running"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="运行应用程序"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_uninstall"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="6dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="卸载"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_share"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="6dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="分享给你的朋友"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_details"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="6dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="详细信息"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+    </RelativeLayout>
+
+</LinearLayout>

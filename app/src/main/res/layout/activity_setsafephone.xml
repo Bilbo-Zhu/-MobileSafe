@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#003">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#22292c">
+
+        <ImageView
+            android:id="@+id/iv_return_setsafephone"
+            android:background="@drawable/topbar_lostfind"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="设置安全号码"
+            android:textSize="20sp"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/completed_setsafephone"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="完成"
+            android:textSize="15sp"
+            android:textColor="#900"
+            android:background="#0000"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:text="请设置手机安全号码"
+        android:textSize="12sp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/et_setsafephone"
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:layout_height="45dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/white"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="请输入安全号码"
+        android:textColor="#353535"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:text="通过手机通讯录选择安全号码"
+        android:textSize="12sp"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/bt_setsafephone"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:textColor="#353535"
+        android:background="@drawable/orangetoashen"
+        android:text="选择手机号码"/>
+
+</LinearLayout>

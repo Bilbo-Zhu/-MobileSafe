@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#22292c">
+
+        <ImageView
+            android:id="@+id/topbarturn_setting"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/topbar_lostfind"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="设置中心"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="设置来电归属地设置，获取对方电话归属地"
+        android:textColor="#353535"
+        android:textSize="10sp" />
+
+    <RelativeLayout
+        android:id="@+id/re_erweima"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="是否设置来电归属地"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/select2_setting"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selsect_noo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_selstyle_setting"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+        <LinearLayout
+            android:id="@+id/ll_selstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:text="归属地提示框风格"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:text="卫士蓝"
+                android:textColor="#C1C6CB"
+                android:textSize="8dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="设置接电话时归属地提示框的位置"
+        android:textColor="#353535"
+        android:textSize="10sp" />
+
+    <RelativeLayout
+        android:id="@+id/re_addresslocation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="归属地提示框的位置"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="黑名单服务设置"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/black_setting"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selsect_noo" />
+    </RelativeLayout>
+
+</LinearLayout>

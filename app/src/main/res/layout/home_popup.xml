@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/re_back"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/down_home"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_trojan"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_trojan_home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/home_trojan"/>
+        <TextView
+            android:id="@+id/tv_title_home"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@id/iv_trojan_home"
+            android:layout_marginLeft="5dp"
+            android:text="手机杀毒"
+            android:textColor="#353535"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/lostfind_turn1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/re_sysoptimize"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_sysoptimise_home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/home_sysoptimize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@id/iv_sysoptimise_home"
+            android:layout_marginLeft="5dp"
+            android:text="缓存清理"
+            android:textColor="#353535"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/lostfind_turn1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/re_tools"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_tools_home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/home_tools"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@id/iv_tools_home"
+            android:layout_marginLeft="5dp"
+            android:text="高级工具"
+            android:textColor="#353535"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/lostfind_turn1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/re_settings"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_settings_home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/home_settings"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@id/iv_settings_home"
+            android:layout_marginLeft="5dp"
+            android:text="设置中心"
+            android:textColor="#353535"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/lostfind_turn1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+</LinearLayout>

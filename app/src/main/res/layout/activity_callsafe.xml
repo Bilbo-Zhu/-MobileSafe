@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66B521"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topbar_spa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/topbarturn_callsafe"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/topbar_lostfind"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="电话防骚扰"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/topbar_spa"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/tubiao" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="标记陌生号码"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_search_container"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/search_btn_bg"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <EditText
+                android:id="@+id/et_search_content"
+                style="?android:attr/textViewStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="输入/粘帖号码"
+                android:inputType="number"
+                android:padding="2dp"
+                android:textColor="#FF666666" />
+
+            <ImageButton
+                android:id="@+id/ib_search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:padding="0dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/icon_search_gray" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="haha"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_gouwu1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="垃圾短信举报"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_callsafe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/re_gouwu1"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="我的黑名单"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/lostfind_turn1" />
+    </RelativeLayout>
+
+</RelativeLayout>
